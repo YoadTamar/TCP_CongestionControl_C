@@ -315,7 +315,7 @@ int main()
         }
         gettimeofday(&end, NULL);
         total+= sum;
-        if(sum < sizepart1)
+        if(sum < sizepart2)
         {
             printf("the receiver only received %ld of %ld bytes of the second part" , sum , sizepart2);
         }
